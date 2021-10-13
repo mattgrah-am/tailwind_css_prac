@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/script.js" defer></script>
+
     <link rel="stylesheet" href="./css/style.css" />
     <title>MattGrah.am</title>
   </head>
@@ -18,7 +19,7 @@
     "
   >
     <main class="max-w-screen-lg m-auto">
-      <nav class="grid grid-cols-2 items-center">
+      <nav class="grid grid-cols-2 items-center mb-24">
         <menu
           class="justify-self-start font-bold text-4xl tracking-tighter m-2 p-0"
         >
@@ -35,21 +36,7 @@
             <a class="nav-btn" href="#">reachOut</a>
           </li>
           <li>
-            <a
-              class="
-                bg-gray-900
-                hover:bg-gray-100
-                dark:bg-gray-100 dark:hover:bg-gray-900
-                text-gray-100
-                hover:text-gray-900
-                dark:text-gray-900 dark:hover:text-gray-100
-                font-bold
-                px-4
-                py-1
-              "
-              href="#"
-              >myWork</a
-            >
+            <a class="nav-btn-rev" href="#">myWork</a>
           </li>
           <li>
             <div class="flex space-x-2">
@@ -79,10 +66,24 @@
           </li>
         </ul>
       </nav>
-      <header class="">
-        <h1 class="font-bold text-8xl tracking-tighter w-1/2 my-48">
-          Be one with the code.
-        </h1>
+      <header class="grid grid-cols-2 place-content-center mb-24">
+        <section class="self-center">
+          <h1 class="font-bold text-8xl tracking-tighter mb-4">
+            Be one with the code.
+          </h1>
+          <p class="mb-4 w-11/12 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            cum harum possimus nemo praesentium, mollitia quo accusantium
+            explicabo amet aliquam. Nihil voluptatibus cupiditate,
+            necessitatibus libero quod delectus saepe deleniti accusantium.
+          </p>
+          <a class="nav-btn-rev inline-block" href="#">Find out more</a>
+        </section>
+        <img
+          class="p-4 shadow border-2 self-center bg-gray-100"
+          src="./img/code1.jpg"
+          alt="laptop with code on the screen"
+        />
       </header>
     </main>
     <section
@@ -146,6 +147,10 @@
           pariatur optio culpa, ex consectetur! Facilis.
         </p>
       </section>
+    </section>
+    <section class="">
+      <div class="fixed bottom-24 left-8 w-5 h-24 bg-gray-100"></div>
+      <div class="fixed bottom-0 left-10 w-1 h-24 bg-gray-100"></div>
     </section>
   </body>
 </html>
