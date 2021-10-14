@@ -27,16 +27,16 @@
         </menu>
         <ul class="list-none flex gap-8 justify-self-end items-center">
           <li>
-            <a class="nav-btn" href="#">aboutMe</a>
+            <a class="nav-link" href="#">aboutMe</a>
           </li>
           <li>
-            <a class="nav-btn" href="#">myThoughts</a>
+            <a class="nav-link" href="#">myThoughts</a>
           </li>
           <li>
-            <a class="nav-btn" href="#">reachOut</a>
+            <a class="nav-link" href="#">reachOut</a>
           </li>
           <li>
-            <a class="nav-btn-rev" href="#">myWork</a>
+            <a class="nav-btn" href="#">myWork</a>
           </li>
           <li>
             <div class="flex space-x-2">
@@ -77,7 +77,7 @@
             explicabo amet aliquam. Nihil voluptatibus cupiditate,
             necessitatibus libero quod delectus saepe deleniti accusantium.
           </p>
-          <a class="nav-btn-rev inline-block" href="#">Find out more</a>
+          <a class="nav-btn inline-block" href="#">Find out more</a>
         </section>
         <img
           class="p-4 shadow border-2 self-center bg-gray-100"
@@ -91,66 +91,113 @@
         flex
         justify-center
         max-w-full
-        bg-gray-900
-        dark:bg-gray-100
+        bg-gray-200
+        dark:bg-gray-800
         transform
         skew-y-2
-        text-gray-100
-        dark:text-gray-900
+        mb-24
       "
     >
-      <section
-        class="
-          h-full
-          max-w-screen-lg
-          py-16
-          transform
-          -skew-y-2
-          flex flex-col
-          gap-8
-        "
-      >
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          eveniet natus nisi consequatur laborum doloribus nulla explicabo aut.
-          Ipsam beatae perferendis enim nesciunt, esse consequatur reprehenderit
-          optio odit ratione. Id. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Quisquam facilis aut ea voluptatibus tempora neque
-          eligendi sapiente omnis recusandae iusto rem asperiores error officiis
-          pariatur optio culpa, ex consectetur! Facilis.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          eveniet natus nisi consequatur laborum doloribus nulla explicabo aut.
-          Ipsam beatae perferendis enim nesciunt, esse consequatur reprehenderit
-          optio odit ratione. Id. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Quisquam facilis aut ea voluptatibus tempora neque
-          eligendi sapiente omnis recusandae iusto rem asperiores error officiis
-          pariatur optio culpa, ex consectetur! Facilis.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          eveniet natus nisi consequatur laborum doloribus nulla explicabo aut.
-          Ipsam beatae perferendis enim nesciunt, esse consequatur reprehenderit
-          optio odit ratione. Id. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Quisquam facilis aut ea voluptatibus tempora neque
-          eligendi sapiente omnis recusandae iusto rem asperiores error officiis
-          pariatur optio culpa, ex consectetur! Facilis.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          eveniet natus nisi consequatur laborum doloribus nulla explicabo aut.
-          Ipsam beatae perferendis enim nesciunt, esse consequatur reprehenderit
-          optio odit ratione. Id. Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Quisquam facilis aut ea voluptatibus tempora neque
-          eligendi sapiente omnis recusandae iusto rem asperiores error officiis
-          pariatur optio culpa, ex consectetur! Facilis.
-        </p>
+      <section class="max-w-screen-lg py-12 transform -skew-y-2 flex gap-8">
+        <div class="p-4 border-2 self-center bg-gray-100 dark:bg-gray-900">
+          <h3 class="font-bold text-3xl tracking-tighter mb-4">Info Card 1</h3>
+          <p class="mb-4 leading-8">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sit
+            quia pariatur illo ipsum vero ad est, nisi possimus accusantium eos,
+            laudantium fugit exercitationem assumenda? Error dolorem doloribus
+            perspiciatis ea?
+          </p>
+          <a href="" class="nav-btn">More Info</a>
+        </div>
+        <div class="p-4 border-2 self-center bg-gray-100 dark:bg-gray-900">
+          <h3 class="font-bold text-3xl tracking-tighter mb-4">Info Card 1</h3>
+          <p class="mb-4 leading-8">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sit
+            quia pariatur illo ipsum vero ad est, nisi possimus accusantium eos,
+            laudantium fugit exercitationem assumenda? Error dolorem doloribus
+            perspiciatis ea?
+          </p>
+          <a href="" class="nav-btn">More Info</a>
+        </div>
+        <div class="p-4 border-2 self-center bg-gray-100 dark:bg-gray-900">
+          <h3 class="font-bold text-3xl tracking-tighter mb-4">Info Card 1</h3>
+          <p class="mb-4 leading-8">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sit
+            quia pariatur illo ipsum vero ad est, nisi possimus accusantium eos,
+            laudantium fugit exercitationem assumenda? Error dolorem doloribus
+            perspiciatis ea?
+          </p>
+          <a href="" class="nav-btn">More Info</a>
+        </div>
       </section>
     </section>
-    <section class="">
-      <div class="fixed bottom-24 left-8 w-5 h-24 bg-gray-100"></div>
-      <div class="fixed bottom-0 left-10 w-1 h-24 bg-gray-100"></div>
+    <h2 class="font-bold text-6xl tracking-tighter mb-12 text-center">
+      Zed Infomation
+    </h2>
+    <section class="max-w-screen-lg m-auto grid grid-cols-2 grid-rows-3 gap-12">
+      <div class="1">
+        <h3 class="font-bold text-3xl tracking-tighter mb-4">
+          Zed info position 1
+        </h3>
+        <p class="leading-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sapiente
+          maiores error officiis odit, quam minus consectetur doloribus eum eius
+          impedit sit quisquam voluptatibus illum expedita architecto, magnam
+          quidem quaerat. Hic aliquam illo quo nemo, mollitia fugit, atque
+          minima omnis suscipit sapiente repudiandae vero nam ratione maxime
+          voluptate at pariatur consequuntur! Est, distinctio! Iusto, aspernatur
+          eveniet nostrum corrupti quam consectetur.
+        </p>
+      </div>
+      <div class="2">
+        <img
+          src="./img/z1.jpg"
+          alt="Mobile phone with code displayed"
+          class="p-4 shadow border-2 self-center bg-gray-100 mb-4"
+        />
+      </div>
+      <div class="3">
+        <img
+          src="./img/z2.jpg"
+          alt="Mobile phone with code displayed"
+          class="p-4 shadow border-2 self-center bg-gray-100 mb-4"
+        />
+      </div>
+      <div class="4">
+        <h3 class="font-bold text-3xl tracking-tighter mb-4">
+          Zed info position 2
+        </h3>
+        <p class="leading-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sapiente
+          maiores error officiis odit, quam minus consectetur doloribus eum eius
+          impedit sit quisquam voluptatibus illum expedita architecto, magnam
+          quidem quaerat. Hic aliquam illo quo nemo, mollitia fugit, atque
+          minima omnis suscipit sapiente repudiandae vero nam ratione maxime
+          voluptate at pariatur consequuntur! Est, distinctio! Iusto, aspernatur
+          eveniet nostrum corrupti quam consectetur.
+        </p>
+      </div>
+      <div class="5">
+        <h3 class="font-bold text-3xl tracking-tighter mb-4">
+          Zed info position 3
+        </h3>
+        <p class="leading-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sapiente
+          maiores error officiis odit, quam minus consectetur doloribus eum eius
+          impedit sit quisquam voluptatibus illum expedita architecto, magnam
+          quidem quaerat. Hic aliquam illo quo nemo, mollitia fugit, atque
+          minima omnis suscipit sapiente repudiandae vero nam ratione maxime
+          voluptate at pariatur consequuntur! Est, distinctio! Iusto, aspernatur
+          eveniet nostrum corrupti quam consectetur.
+        </p>
+      </div>
+      <div class="6">
+        <img
+          src="./img/z3.jpg"
+          alt="Mobile phone with code displayed"
+          class="p-4 shadow border-2 self-center bg-gray-100 mb-4"
+        />
+      </div>
     </section>
   </body>
 </html>
