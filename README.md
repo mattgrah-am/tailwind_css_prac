@@ -1,4 +1,4 @@
-# tailwind_theme
+# Tailwind Theme
 Created whilst learning Tailwind CSS
 
 
